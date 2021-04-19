@@ -8,8 +8,9 @@ public:
 	Ship();
 
 	void draw();
+	void update(sf::Time& elapsed);
 private:
 	sf::Sprite sprite_;
 };
 
-typedefstd::shared_ptr<Ship> ShipPtr;
+typedef std::shared_ptr<Ship> ShipPtr;
