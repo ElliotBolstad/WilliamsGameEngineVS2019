@@ -1,6 +1,6 @@
 #pragma once
 
-#include ""Engine/GameEngine.h"
+#include "Engine/GameEngine.h"
 
 class Laser : public GameObject
 {
@@ -13,4 +13,4 @@ private:
 	sf::Sprite sprite_;
 };
 
-typedefstd::shared_ptr<Laser> LaserPtr;
+typedef std::shared_ptr<Laser> LaserPtr;
