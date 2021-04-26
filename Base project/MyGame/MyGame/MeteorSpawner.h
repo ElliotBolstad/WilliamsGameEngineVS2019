@@ -3,4 +3,12 @@
 #include "Engine/GameEngine.h"
 #include "Meteor.h"
 
-class
+class MeteorSpawner : public GameObject
+{
+public:
+	void update(sf::Time& elapsed);
+private:
+	int time_ = 0;
+};
+
+Typedef std::shared_ptr<MeteorSpawner> MeteorSpawnerPtr;
