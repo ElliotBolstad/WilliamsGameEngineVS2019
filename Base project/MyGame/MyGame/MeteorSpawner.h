@@ -8,7 +8,7 @@ class MeteorSpawner : public GameObject
 public:
 	void update(sf::Time& elapsed);
 private:
-	int time_ = 0;
+	int timer_ = 0;
 };
 
-Typedef std::shared_ptr<MeteorSpawner> MeteorSpawnerPtr;
+typedef std::shared_ptr<MeteorSpawner> MeteorSpawnerPtr;
