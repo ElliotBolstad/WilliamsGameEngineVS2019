@@ -5,7 +5,7 @@ sf::FloatRect Meteor::getCollisionRect()
 	return sprite_.getGlobalBounds();
 }
 
-void Meteor::handleCollision(GameObject& otherGameObjects)
+void Meteor::handleCollision(GameObject& otherGameObject)
 {
 	if (otherGameObject.hasTag("laser"))
 	{
