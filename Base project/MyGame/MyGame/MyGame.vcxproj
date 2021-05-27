@@ -105,6 +105,7 @@
     <ClInclude Include="Laser.h" />
     <ClInclude Include="Meteor.h" />
     <ClInclude Include="MeteorSpawner.h" />
+    <ClInclude Include="Score.h" />
     <ClInclude Include="Ship.h" />
   </ItemGroup>
   <ItemGroup>
